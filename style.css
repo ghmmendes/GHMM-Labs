@@ -1,0 +1,75 @@
+/* ===== GHMM Labs - Estilo Principal ===== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4fdf6; /* verde-claro de fundo */
+    color: #033f47; /* azul petróleo */
+}
+
+/* ===== Cabeçalho ===== */
+header {
+    background-color: #0b8f72; /* verde principal */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* ===== Seções ===== */
+main {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: #e1f5f2; /* azul-esverdeado suave */
+    border-left: 6px solid #0b8f72;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #06624e; /* verde escuro */
+}
+
+/* ===== Lista de produtos ===== */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #d4f8eb;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #b2f0de;
+}
+
+/* ===== Rodapé ===== */
+footer {
+    background-color: #033f47;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+
